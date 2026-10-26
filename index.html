@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guia de Declaração de Uso de IA na Pesquisa Acadêmica</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="kicker">Guia acadêmico</div>
+            <h1>Declaração de Uso de Inteligência Artificial na Produção Acadêmica e Pesquisa Científica</h1>
+        </header>
+
+        <div class="tab-container" aria-label="Conteúdo em abas">
+            <ul class="tablist" role="tablist" aria-label="Seções do guia">
+                <li role="presentation"><button class="tab-button" id="tab-matriz" role="tab" aria-controls="matriz"
+                        aria-selected="false" data-panel="matriz">Matriz Integrada</button></li>
+                <li role="presentation"><button class="tab-button" id="tab-periodicos" role="tab"
+                        aria-controls="periodicos" aria-selected="false" data-panel="periodicos">Periódicos
+                        Globais</button></li>
+                <li role="presentation"><button class="tab-button" id="tab-declaracao" role="tab"
+                        aria-controls="declaracao" aria-selected="false" data-panel="declaracao">Modelos de
+                        Declaração</button></li>
+                <li role="presentation"><button class="tab-button" id="tab-secoes" role="tab" aria-controls="secoes"
+                        aria-selected="false" data-panel="secoes">Seções do Manuscrito</button></li>
+                <li role="presentation"><button class="tab-button" id="tab-citacoes" role="tab" aria-controls="citacoes"
+                        aria-selected="false" data-panel="citacoes">Citações e Referências</button></li>
+                <li role="presentation"><button class="tab-button" id="tab-gerador" role="tab" aria-controls="gerador"
+                        aria-selected="false" data-panel="gerador">Gerador de Declaração</button></li>
+            </ul>
+
+            <section id="matriz" class="tab-panel" role="tabpanel" aria-labelledby="tab-matriz" hidden>
+                <h2>Matriz Integrada de Elementos Estruturais para Termos de Declaração</h2>
+
+                <p class="lede">As diretrizes de universidades e editoras internacionais exigem a compilação organizada
+                    dos elementos que garantem a rastreabilidade e a transparência do uso da tecnologia<sup>1</sup>.</p>
+
+                <div class="legend">
+                    <span>Legenda do status normativo:</span>
+                    <span class="badge badge--required">Obrigatório</span>
+                    <span class="badge badge--conditional">Recomendado / Obrigatório</span>
+                    <span class="badge badge--recommended">Recomendado</span>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Elemento Estrutural</th>
+                                <th>Status Normativo</th>
+                                <th>Descrição e Detalhamento</th>
+                                <th>Categorias e Opções Aplicáveis</th>
+                                <th>Localização no Documento</th>
+                                <th>Instituições / Editoras de Referência</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Identificação da Ferramenta</strong></td>
+                                <td><span class="badge badge--required">Obrigatório</span></td>
+                                <td>Nome comercial e técnico do modelo ou software utilizado<sup>2</sup>.</td>
+                                <td>Ex.: ChatGPT, Claude, Gemini, DeepL, Copilot, DALL-E, Paperpal,
+                                    MathGPT<sup>2,3</sup>.</td>
+                                <td>Declaração dedicada, Métodos ou Formulário<sup>8</sup>.</td>
+                                <td>Elsevier, Wiley, CNPq, TUM, Stellenbosch<sup>2</sup>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Versão e Desenvolvedor</strong></td>
+                                <td><span class="badge badge--required">Obrigatório</span></td>
+                                <td>Especificação exata da versão do modelo, data de lançamento ou empresa
+                                    criadora<sup>9</sup>.</td>
+                                <td>Ex.: GPT-4o (OpenAI), Claude 3.5 Sonnet (Anthropic), Gemini 1.5 Pro
+                                    (Google)<sup>2,3</sup>.</td>
+                                <td>Declaração dedicada, Métodos ou Citação<sup>8</sup>.</td>
+                                <td>Elsevier, Springer Nature, Wiley, APA, MLA<sup>1,2</sup>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Data / Período de Acesso</strong></td>
+                                <td><span class="badge badge--conditional">Recomendado / Obrigatório</span></td>
+                                <td>Período exato ou data específica em que as consultas ou prompts foram
+                                    executados<sup>9</sup>.</td>
+                                <td>Data específica (DD/MM/AAAA) ou intervalo de meses durante a redação<sup>9</sup>.
+                                </td>
+                                <td>Declaração dedicada ou nota de rodapé<sup>9</sup>.</td>
+                                <td>Wiley, MLA, EHU<sup>1,5</sup>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Etapa do Ciclo de Pesquisa</strong></td>
+                                <td><span class="badge badge--required">Obrigatório</span></td>
+                                <td>Fase da investigação científica em que a IA foi empregada<sup>2</sup>.</td>
+                                <td>Concepção, Revisão de Literatura, Métodos, Coleta/Análise, Redação, Tradução,
+                                    Revisão<sup>2</sup>.</td>
+                                <td>Seção de Métodos, Declaração ou Formulário<sup>1</sup>.</td>
+                                <td>CNPq, Stellenbosch, EHU, ICMJE<sup>2</sup>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Finalidade Específica e Tarefa</strong></td>
+                                <td><span class="badge badge--required">Obrigatório</span></td>
+                                <td>Descrição objetiva da função desempenhada pela ferramenta tecnológica<sup>1</sup>.
+                                </td>
+                                <td>Reformulação de texto, depuração de código, busca bibliográfica, suporte
+                                    conceitual<sup>2</sup>.</td>
+                                <td>Declaração dedicada ou Métodos<sup>1</sup>.</td>
+                                <td>Elsevier, IEEE, CNPq, TUM<sup>2</sup>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Escopo e Extensão do Uso</strong></td>
+                                <td><span class="badge badge--recommended">Recomendado</span></td>
+                                <td>Delimitação do volume de texto ou componentes afetados pela IA<sup>9</sup>.</td>
+                                <td>Ex.: Capítulos 2 a 4; Seção de Discussão; Algoritmos de processamento<sup>9</sup>.
+                                </td>
+                                <td>Declaração dedicada ou Formulário de tese<sup>9</sup>.</td>
+                                <td>Stellenbosch, Editage/COPE<sup>9</sup>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Procedimento de Verificação Humana</strong></td>
+                                <td><span class="badge badge--required">Obrigatório</span></td>
+                                <td>Declaração explícita de revisão, checagem factual e validação pelo autor
+                                    humano<sup>1</sup>.</td>
+                                <td>Validação cruzada com fontes primárias, testes manuais de código, reescrita do
+                                    texto<sup>1</sup>.</td>
+                                <td>Declaração dedicada e Carta de Apresentação<sup>4</sup>.</td>
+                                <td>Elsevier, Springer Nature, Wiley, CNPq<sup>2</sup>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Termo de Autoria e Responsabilidade</strong></td>
+                                <td><span class="badge badge--required">Obrigatório</span></td>
+                                <td>Confirmação de que o autor assume 100% da responsabilidade pelo conteúdo
+                                    final<sup>2</sup>.</td>
+                                <td>Afirmação incondicional de responsabilidade integral por erros, dados e
+                                    integridade<sup>2</sup>.</td>
+                                <td>Declaração dedicada ou Termo Assinado<sup>4</sup>.</td>
+                                <td>Elsevier, CNPq, TUM, Stellenbosch<sup>2</sup>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Preservação de Sigilo e Dados</strong></td>
+                                <td><span class="badge badge--conditional">Recomendado / Obrigatório</span></td>
+                                <td>Confirmação de que dados confidenciais ou de pacientes não foram
+                                    inseridos<sup>8</sup>.</td>
+                                <td>Garantia de não violação de privacidade, LGPD e propriedade intelectual<sup>5</sup>.
+                                </td>
+                                <td>Carta de apresentação ou Termo institucional<sup>8</sup>.</td>
+                                <td>Elsevier, Springer Nature, Wiley, ICMJE<sup>5</sup>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Registros e Reprodutibilidade</strong></td>
+                                <td><span class="badge badge--recommended">Recomendado</span></td>
+                                <td>Guarda de logs de prompts, links compartilháveis de chats ou versões do
+                                    histórico<sup>1,5</sup>.</td>
+                                <td>Links de compartilhamento de chats, capturas de tela, histórico de
+                                    versões<sup>2,4</sup>.</td>
+                                <td>Anexos do trabalho ou repositórios públicos<sup>1,5</sup>.</td>
+                                <td>Monash, Cambridge, UCL, Wiley<sup>1,5</sup>.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="periodicos" class="tab-panel" role="tabpanel" aria-labelledby="tab-periodicos" hidden>
+                <h2>Modelos de Declaração para Periódicos Globais</h2>
+                <p class="lede">Os modelos a seguir foram estruturados para atendimento direto aos requisitos das
+                    editoras internacionais, apresentados em versão bilíngue (Português e Inglês) para flexibilidade de
+                    submissão. O texto dentro de cada cartão é literal — copie-o para o manuscrito e substitua apenas os
+                    campos destacados.</p>
+
+                <h3>Modelo Elsevier</h3>
+                <p class="lede">O texto deve ser inserido em uma seção independente posicionada imediatamente antes das
+                    Referências<sup>8</sup>.</p>
+                <div class="template-card">
+                    <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#10070;</span> Texto
+                        para inserção no manuscrito</div>
+                    <div class="card-body">
+                        <div class="lang-block">
+                            <span class="lang-tag">PT-BR</span>
+                            <p class="template-title">Declaração de inteligência artificial e tecnologias assistidas por
+                                IA no processo de preparação do manuscrito</p>
+                            <p class="template-text">Durante a preparação deste trabalho, o(s) autor(es)
+                                utilizou(aram) <span class="placeholder">[NOME DA FERRAMENTA / SERVIÇO, VERSÃO,
+                                    DESENVOLVEDOR]</span> com o objetivo de <span class="placeholder">[INSERIR A
+                                    FINALIDADE ESPECÍFICA, EX.: REVISAR A CLAREZA DA LINGUAGEM E MELHORAR A ESTRUTURA
+                                    SINTÁTICA DOS PARÁGRAFOS DA SEÇÃO DE DISCUSSÃO]</span>. Após o uso desta
+                                ferramenta/serviço, o(s) autor(es) revisou(aram) e editou(aram) o conteúdo conforme
+                                necessário e assume(m) integral responsabilidade pelo conteúdo do artigo
+                                publicado<sup>4</sup>.</p>
+                        </div>
+                        <div class="lang-block">
+                            <span class="lang-tag">EN</span>
+                            <p class="template-title">Declaration of generative AI and AI-assisted technologies in the
+                                manuscript preparation process</p>
+                            <p class="template-text">During the preparation of this work the author(s) used <span
+                                    class="placeholder">[NAME TOOL / SERVICE, VERSION, DEVELOPER]</span> in order to
+                                <span class="placeholder">[REASON / SPECIFIC TASK]</span>. After using this
+                                tool/service, the author(s) reviewed and edited the content as needed and take(s) full
+                                responsibility for the content of the published article<sup>4</sup>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Modelo Wiley</h3>
+                <p class="lede">Posiciona-se ao final do manuscrito ou na seção de notas formais dos
+                    autores<sup>8</sup>.</p>
+                <div class="template-card">
+                    <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#10070;</span> Texto
+                        para inserção no manuscrito</div>
+                    <div class="card-body">
+                        <div class="lang-block">
+                            <span class="lang-tag">PT-BR</span>
+                            <p class="template-title">Declaração do Uso de IA Generativa</p>
+                            <p class="template-text">Os autores utilizaram <span class="placeholder">[NOME DA
+                                    FERRAMENTA, VERSÃO]</span> durante a preparação deste manuscrito para <span
+                                    class="placeholder">[TAREFA ESPECÍFICA]</span>. O uso desta ferramenta não
+                                influenciou os argumentos centrais, a análise de dados ou as conclusões do trabalho. Os
+                                autores revisaram criticamente todo o material gerado e assumem total responsabilidade
+                                pela exatidão e integridade do manuscrito publicado<sup>8</sup>.</p>
+                        </div>
+                        <div class="lang-block">
+                            <span class="lang-tag">EN</span>
+                            <p class="template-title">Generative AI Use Statement</p>
+                            <p class="template-text">The authors used <span class="placeholder">[TOOL NAME,
+                                    VERSION]</span> during the preparation of this manuscript for <span
+                                    class="placeholder">[SPECIFIC TASK]</span>. The use of this tool did not influence
+                                the key arguments, data analysis, or conclusions of the work. The authors critically
+                                reviewed and edited all output and accept full responsibility for the integrity and
+                                accuracy of the published manuscript<sup>8</sup>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Modelo Springer Nature / Nature</h3>
+                <p class="lede">Incopora-se preferencialmente no texto da seção de Métodos<sup>1,3</sup>.</p>
+                <div class="template-card">
+                    <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#10070;</span> Texto
+                        para inserção no manuscrito</div>
+                    <div class="card-body">
+                        <div class="lang-block">
+                            <span class="lang-tag">PT-BR</span>
+                            <p class="template-title">Uso de Inteligência Artificial e Modelos de Linguagem</p>
+                            <p class="template-text">Tecnologias de inteligência artificial generativa <span
+                                    class="placeholder">[NOME DO MODELO, VERSÃO, DESENVOLVEDOR]</span> foram utilizadas
+                                durante <span class="placeholder">[ETAPA DA PESQUISA / PREPARAÇÃO DO
+                                    MANUSCRITO]</span> para <span class="placeholder">[FUNÇÃO ESPECÍFICA, EX.: AUXILIAR
+                                    NA FORMATAÇÃO DE CÓDIGOS DE PROGRAMAÇÃO / ESTRUTURAÇÃO INICIAL DA REVISÃO DE
+                                    LITERATURA]</span>. Todo o material resultante foi minuciosamente avaliado, testado
+                                e validado manualmente pelos autores, que mantêm a responsabilidade exclusiva pelas
+                                análises, interpretações e conclusões apresentadas nesta pesquisa<sup>1,3</sup>.</p>
+                        </div>
+                        <div class="lang-block">
+                            <span class="lang-tag">EN</span>
+                            <p class="template-title">Use of Artificial Intelligence and Language Models</p>
+                            <p class="template-text">Generative artificial intelligence technologies <span
+                                    class="placeholder">[MODEL NAME, VERSION, DEVELOPER]</span> were used during <span
+                                    class="placeholder">[RESEARCH STAGE / MANUSCRIPT PREPARATION]</span> for <span
+                                    class="placeholder">[SPECIFIC FUNCTION, E.G., ASSISTING WITH CODE FORMATTING /
+                                    STRUCTURING LITERATURE SEARCH RESULTS]</span>. All resulting outputs were thoroughly
+                                evaluated, tested, and manually verified by the authors, who retain sole responsibility
+                                for the analyses, interpretations, and conclusions presented in this
+                                study<sup>1,3</sup>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Modelo IEEE</h3>
+                <p class="lede">Indicado para a seção de Agradecimentos ou bloco de declarações éticas em trabalhos de
+                    engenharia e tecnologia<sup>1,6</sup>.</p>
+                <div class="template-card">
+                    <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#10070;</span> Texto
+                        para inserção no manuscrito</div>
+                    <div class="card-body">
+                        <div class="lang-block">
+                            <span class="lang-tag">PT-BR</span>
+                            <p class="template-title">Agradecimentos e Declaração de Uso de IA</p>
+                            <p class="template-text">Os autores reconhecem o uso de <span class="placeholder">[NOME DA
+                                    FERRAMENTA DE IA, VERSÃO, DESENVOLVEDOR]</span> para auxiliar na <span
+                                    class="placeholder">[INSERIR TAREFA, EX.: OTIMIZAÇÃO DE SCRIPTS DE SIMULAÇÃO /
+                                    TRADUÇÃO DE TERMOS TÉCNICOS DA SEÇÃO DE RESULTADOS]</span>. Os autores elaboraram os
+                                prompts originais, verificaram rigorosamente a precisão técnica e a lógica de todo o
+                                conteúdo gerado e assumem total responsabilidade pelo trabalho publicado<sup>1,6</sup>.
+                            </p>
+                        </div>
+                        <div class="lang-block">
+                            <span class="lang-tag">EN</span>
+                            <p class="template-title">Acknowledgments and AI Use Statement</p>
+                            <p class="template-text">The authors acknowledge the use of <span class="placeholder">[NAME
+                                    OF AI TOOL, VERSION, DEVELOPER]</span> to assist in <span class="placeholder">[SPECIFIC
+                                    TASK, E.G., OPTIMIZING SIMULATION SCRIPTS / TRANSLATING TECHNICAL TERMS IN THE
+                                    RESULTS SECTION]</span>. The authors created the original prompts, thoroughly
+                                verified the technical accuracy and logic of all generated outputs, and assume full
+                                accountability for the published work<sup>1,6</sup>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Modelo ICMJE</h3>
+                <p class="lede">Estruturado para publicações biomédicas e das ciências da saúde<sup>7</sup>.</p>
+                <div class="template-card">
+                    <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#10070;</span> Texto
+                        para inserção no manuscrito</div>
+                    <div class="card-body">
+                        <div class="lang-block">
+                            <span class="lang-tag">PT-BR</span>
+                            <p class="template-title">Declaração de Tecnologias de IA e Assistidas por IA</p>
+                            <p class="template-text">Os autores declaram a utilização da ferramenta <span
+                                    class="placeholder">[NOME DA FERRAMENTA, VERSÃO, DESENVOLVEDOR]</span> na <span
+                                    class="placeholder">[INSERIR ETAPA, EX.: REVISÃO DA REDAÇÃO DO TEXTO E MELHORIA DA
+                                    FLUIDADE DA SEÇÃO DE MÉTODOS]</span>. Todas as conclusões médicas, interpretações de
+                                dados clínicos e revisões do texto final foram realizadas de forma independente e
+                                validadas pelos autores humanos. Os autores confirmam que as ferramentas de IA não
+                                cumprem os critérios de autoria do ICMJE e assumem total responsabilidade pelo conteúdo
+                                científico divulgado<sup>7</sup>.</p>
+                        </div>
+                        <div class="lang-block">
+                            <span class="lang-tag">EN</span>
+                            <p class="template-title">AI and AI-Assisted Technologies Statement</p>
+                            <p class="template-text">The authors declare the use of <span class="placeholder">[NAME OF
+                                    AI TOOL, VERSION, DEVELOPER]</span> for <span class="placeholder">[SPECIFIC TASK,
+                                    E.G., REFINING TEXT READABILITY AND IMPROVING FLOW IN THE METHODS
+                                    SECTION]</span>. All medical conclusions, clinical data interpretations, and final
+                                manuscript edits were independently performed and validated by the human authors. The
+                                authors confirm that AI tools do not meet ICMJE authorship criteria and take full
+                                responsibility for the published scientific content<sup>7</sup>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="declaracao" class="tab-panel" role="tabpanel" aria-labelledby="tab-declaracao" hidden>
+                <h2>Modelos de Declaração</h2>
+                <p class="lede">Os termos a seguir destinam-se ao ambiente universitário, cobrindo exigências
+                    institucionais de pós-graduação e graduação em conformidade com as diretrizes do CNPq (Portaria nº
+                    2.664/2026) e universidades internacionais<sup>2</sup>.</p>
+
+                <h3>Modelo Geral de Declaração Institucional</h3>
+                <div class="doc-card">
+                    <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#9998;</span>
+                        Documento modelo — declaração assinada pelo(a) estudante</div>
+                    <div class="card-body">
+                        <p class="template-title">DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL</p>
+                        <p class="template-text">Eu, <span class="placeholder">[NOME COMPLETO DO ESTUDANTE]</span>,
+                            autor(a) do trabalho de conclusão de curso / dissertação / tese intitulado(a) "<span
+                                class="placeholder">[TÍTULO COMPLETO DO TRABALHO]</span>", submetido ao Programa de
+                            Pós-Graduação em <span class="placeholder">[NOME DO PROGRAMA]</span> da <span
+                                class="placeholder">[NOME DA INSTITUIÇÃO DE ENSINO]</span>, declaro para os devidos fins
+                            de integridade acadêmica que:</p>
+
+                        <ol>
+                            <li>Utilizei ferramentas de Inteligência Artificial (IA) e Inteligência Artificial
+                                Generativa (IAG) no desenvolvimento do presente trabalho, conforme detalhado no quadro
+                                abaixo<sup>2</sup>:</li>
+                        </ol>
+
+                        <p class="table-caption">Exemplos ilustrativos de preenchimento</p>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Ferramenta e Versão</th>
+                                        <th>Etapa da Pesquisa</th>
+                                        <th>Finalidade Específica do Uso</th>
+                                        <th>Procedimento de Validação Humana</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><em>Ex.: ChatGPT (GPT-4o)</em></td>
+                                        <td><em>Redação e Estilo</em></td>
+                                        <td><em>Revisão gramatical e clareza textual dos Capítulos 1 e 2.</em></td>
+                                        <td><em>Leitura crítica, reescrita de trechos e checagem conceitual
+                                                integral.</em></td>
+                                    </tr>
+                                    <tr>
+                                        <td><em>Ex.: GitHub Copilot</em></td>
+                                        <td><em>Análise de Dados</em></td>
+                                        <td><em>Auxílio na depuração do código em Python para processamento de
+                                                matrizes.</em>
+                                        </td>
+                                        <td><em>Execução de testes unitários manuais e verificação de saídas
+                                                numéricas.</em>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><em>Ex.: ResearchRabbit</em></td>
+                                        <td><em>Mapeamento</em></td>
+                                        <td><em>Identificação primária de artigos científicos relacionados ao
+                                                tema.</em></td>
+                                        <td><em>Consulta direta aos repositórios originais e leitura completa das
+                                                fontes.</em>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <ol start="2">
+                            <li>Confirmo que nenhum texto gerado por IA foi incluído de forma literal sem a devida
+                                revisão, adequação e validação crítica<sup>2,4</sup>.</li>
+                            <li>Atesto que os dados empíricos, análises estatísticas, formulações teóricas e conclusões
+                                foram desenvolvidos sob minha direta responsabilidade intelectual<sup>2</sup>.</li>
+                            <li>Declaro ter plena ciência de que a responsabilidade por eventuais incorreções factuais,
+                                viés ou plágio decorrentes do uso de ferramentas de IA é integralmente minha, eximindo a
+                                instituição e a banca examinadora de qualquer encargo<sup>2</sup>.</li>
+                        </ol>
+
+                        <p class="template-text">Local: <span class="placeholder">[CIDADE / ESTADO]</span><br />
+                            Data: <span class="placeholder">[DIA]</span> de <span class="placeholder">[MÊS]</span> de
+                            <span class="placeholder">[ANO]</span><br />
+                            Assinatura do(a) Estudante<br />
+                            Assinatura do(a) Orientador(a) (Confirmando a ciência do uso)<sup>2,3</sup></p>
+                    </div>
+                </div>
+
+                <h3>Formulário de Termo de Compromisso e Check-list Institucional</h3>
+                <div class="doc-card">
+                    <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#9998;</span>
+                        Documento modelo — formulário anexo</div>
+                    <div class="card-body">
+                        <p class="template-title">FORMULÁRIO DE DECLARAÇÃO DE USO DE FERRAMENTAS DE IA (ANEXO
+                            ACADÊMICO)</p>
+                        <p><strong>Dados do Aluno e da Pesquisa</strong></p>
+
+                        <ul>
+                            <li><strong>Nome do Autor:</strong> <span class="placeholder">[NOME COMPLETO]</span></li>
+                            <li><strong>Matrícula:</strong> <span class="placeholder">[NÚMERO DE MATRÍCULA]</span></li>
+                            <li><strong>Título do Trabalho:</strong> <span class="placeholder">[TÍTULO
+                                    COMPLETO]</span></li>
+                            <li><strong>Curso/Programa:</strong> <span class="placeholder">[NOME DO
+                                    CURSO/PROGRAMA]</span></li>
+                            <li><strong>Orientador(a):</strong> <span class="placeholder">[NOME DO
+                                    ORIENTADOR]</span></li>
+                        </ul>
+
+                        <p><strong>Opção de Declaração (Marcar a opção aplicável):</strong></p>
+                        <p class="template-text"><span class="checkbox" aria-hidden="true"></span><strong>Opção
+                                A:</strong> Declaro que <strong>NÃO UTILIZEI</strong> qualquer ferramenta de
+                            Inteligência Artificial Generativa no desenvolvimento desta pesquisa ou na redação do
+                            documento, tendo empregado apenas softwares convencionais de processamento de texto e
+                            editores de referências<sup>2,3</sup>.<br />
+                            <span class="checkbox" aria-hidden="true"></span><strong>Opção B:</strong> Declaro que
+                            <strong>UTILIZEI</strong> ferramentas de Inteligência Artificial e IAG para as seguintes
+                            finalidades especificadas abaixo (marcar todas as que se aplicam)<sup>2,3</sup>:</p>
+
+                        <ul>
+                            <li><span class="checkbox" aria-hidden="true"></span><strong>Geração de Ideias /
+                                    Brainstorming:</strong> Suporte na delimitação inicial do problema ou
+                                hipóteses<sup>2,3</sup>.</li>
+                            <li><span class="checkbox" aria-hidden="true"></span><strong>Busca de Literatura:</strong>
+                                Identificação e sumarização de artigos e fontes primárias<sup>2,3</sup>.</li>
+                            <li><span class="checkbox" aria-hidden="true"></span><strong>Desenvolvimento de
+                                    Métodos:</strong> Auxílio na estruturação do desenho experimental ou
+                                modelos<sup>2,3</sup>.</li>
+                            <li><span class="checkbox" aria-hidden="true"></span><strong>Análise de Dados:</strong>
+                                Suporte no processamento estatístico ou categorização de dados<sup>2,3</sup>.</li>
+                            <li><span class="checkbox" aria-hidden="true"></span><strong>Geração/Otimização de
+                                    Código:</strong> Redação, correção ou depuração de scripts de
+                                programação<sup>2,3</sup>.</li>
+                            <li><span class="checkbox" aria-hidden="true"></span><strong>Elaboração Gráfica:</strong>
+                                Suporte na criação de diagramas conceituais ou esquemas explicativos<sup>2,3</sup>.</li>
+                            <li><span class="checkbox" aria-hidden="true"></span><strong>Revisão e Tradução:</strong>
+                                Correção gramatical, aprimoramento de estilo e tradução de textos
+                                próprios<sup>2,3</sup>.</li>
+                        </ul>
+
+                        <p><strong>Especificação das Ferramentas e Justificativa:</strong></p>
+                        <ul>
+                            <li><strong>Ferramenta(s) e Versão(ões):</strong> <span class="placeholder">[EX.: CLAUDE 3.5
+                                    SONNET / COPILOT]</span><sup>2,3</sup>.
+                            </li>
+                            <li><strong>Período de Uso:</strong> <span class="placeholder">[EX.: JANEIRO A MARÇO DE
+                                    2026]</span><sup>9</sup>.</li>
+                            <li><strong>Descrição do Procedimento de Verificação:</strong> <span
+                                    class="placeholder">[DESCREVER EM 2 A 4 LINHAS COMO OS RESULTADOS FORAM VALIDADOS
+                                    PELO ESTUDANTE, EX.: "TODAS AS REFERÊNCIAS INDICADAS FORAM CONFERIDAS NA BASE DE
+                                    DADOS ORIGINAL E O CÓDIGO FOI TESTADO MANUALMENTE"]</span><sup>2,3</sup>.</li>
+                        </ul>
+
+                        <p><strong>Compromisso de Autoria e Integridade:</strong> Confirmo que todas as informações
+                            prestadas são verdadeiras e que o trabalho final representa minha contribuição acadêmica
+                            original<sup>2,3</sup>.<br />
+                            Assinatura do Estudante: ________________________ Data: <strong>**/ ***/**/__</strong><sup>2,3</sup>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="secoes" class="tab-panel" role="tabpanel" aria-labelledby="tab-secoes" hidden>
+                <h2>Modelos Específicos por Seção do Manuscrito</h2>
+                <p class="lede">Cada subseção abaixo contém um texto pronto para a parte correspondente do manuscrito,
+                    nas versões em português e inglês.</p>
+
+                <h3>Carta de Apresentação (Cover Letter)</h3>
+                <div class="template-card">
+                    <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#10070;</span> Texto
+                        para a carta de apresentação</div>
+                    <div class="card-body">
+                        <div class="lang-block">
+                            <span class="lang-tag">PT-BR</span>
+                            <p class="template-text">Prezado(a) Editor(a)-Chefe,<br />
+                                Confirmamos que a ferramenta de IA generativa <span class="placeholder">[NOME DA
+                                    FERRAMENTA, VERSÃO, DESENVOLVEDOR]</span> foi utilizada durante a preparação deste
+                                manuscrito para <span class="placeholder">[ESPECIFICAR A TAREFA, EX.: REVISAR A REDAÇÃO
+                                    TÉCNICA E APRIMORAR A CLAREZA DA SEÇÃO DE RESULTADOS]</span>. Esta utilização
+                                encontra-se devidamente declarada na seção <span class="placeholder">[MÉTODOS /
+                                    DECLARAÇÃO DE IA]</span> do manuscrito submetido.<br />
+                                Declaramos que nenhum dado confidencial, informação privada de participantes ou dados
+                                não publicados foram inseridos na referida ferramenta<sup>8</sup>. Os autores revisaram
+                                integralmente todo o conteúdo produzido e assumem total responsabilidade pela
+                                integridade e precisão dos dados publicados<sup>4</sup>.</p>
+                        </div>
+                        <div class="lang-block">
+                            <span class="lang-tag">EN</span>
+                            <p class="template-text">Dear Editor-in-Chief,<br />
+                                We confirm that the generative AI tool <span class="placeholder">[TOOL NAME, VERSION,
+                                    DEVELOPER]</span> was used during the preparation of this manuscript for <span
+                                    class="placeholder">[SPECIFIC TASK, E.G., POLISHING TECHNICAL WRITING AND IMPROVING
+                                    FLOW IN THE RESULTS SECTION]</span>. This application is fully disclosed in the
+                                <span class="placeholder">[METHODS / AI DECLARATION SECTION]</span> of the submitted
+                                manuscript.<br />
+                                We confirm that no confidential data, participant identifiable information, or
+                                proprietary findings were uploaded to the AI system<sup>8</sup>. The authors have
+                                thoroughly reviewed and edited all generated outputs and accept full accountability for
+                                the accuracy and integrity of the published work<sup>4</sup>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Seção de Materiais e Métodos</h3>
+                <div class="template-card">
+                    <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#10070;</span> Texto
+                        para a seção de Métodos</div>
+                    <div class="card-body">
+                        <div class="lang-block">
+                            <span class="lang-tag">PT-BR</span>
+                            <p class="template-title">Processamento de Dados e Suporte Computacional por IA</p>
+                            <p class="template-text">O rastreamento inicial da literatura científica foi auxiliado pela
+                                ferramenta <span class="placeholder">[NOME DA FERRAMENTA, VERSÃO,
+                                    DESENVOLVEDOR]</span>, utilizando a seguinte estratégia de busca: "<span
+                                    class="placeholder">[INSERIR OS PROMPTS OU OPERADORES DE BUSCA
+                                    EMPREGADOS]</span>". Todos os artigos identificados foram filtrados e verificados
+                                manualmente em relação aos critérios de inclusão e exclusão pré-determinados<sup>9</sup>.
+                                Para a fase de análise de dados, o algoritmo de otimização de código <span
+                                    class="placeholder">[NOME DO SOFTWARE/MODELO, VERSÃO]</span> foi empregado para
+                                depurar as rotinas de cálculo escritas em linguagem R<sup>2,3</sup>. Todas as rotinas
+                                foram executadas, testadas contra conjuntos de dados de controle e validadas de forma
+                                autônoma pela equipe de pesquisadores antes da análise final<sup>9</sup>.</p>
+                        </div>
+                        <div class="lang-block">
+                            <span class="lang-tag">EN</span>
+                            <p class="template-title">Data Processing and Computational AI Support</p>
+                            <p class="template-text">Initial screening of scientific literature was assisted by <span
+                                    class="placeholder">[TOOL NAME, VERSION, DEVELOPER]</span> using the following
+                                search query: "<span class="placeholder">[INSERT PROMPTS OR SEARCH TERMS
+                                    USED]</span>". All identified candidate studies were manually verified against
+                                predetermined eligibility criteria<sup>9</sup>. For the data analysis pipeline, <span
+                                    class="placeholder">[SOFTWARE/MODEL NAME, VERSION]</span> was used to optimize
+                                custom computational scripts written in R<sup>2,3</sup>. All scripts were executed,
+                                benchmarked against control datasets, and independently validated by the research team
+                                prior to final analysis<sup>9</sup>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Legendas de Elementos Gráficos e Ilustrativos</h3>
+                <div class="template-card">
+                    <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#10070;</span> Texto
+                        para legenda de figura</div>
+                    <div class="card-body">
+                        <div class="lang-block">
+                            <span class="lang-tag">PT-BR</span>
+                            <p class="template-text"><strong>Figura X.</strong> Representação esquemática do mecanismo
+                                de reação celular. <strong>Nota:</strong> Este diagrama conceitual foi elaborado com o
+                                suporte da ferramenta de IA <span class="placeholder">[NOME DA FERRAMENTA, VERSÃO,
+                                    DESENVOLVEDOR]</span>, a partir de esboços conceituais fornecidos pelos autores.
+                                Nenhuma imagem de dados primários, micrografia ou resultado experimental bruto sofreu
+                                alteração, manipulação ou geração sintética por inteligência artificial<sup>1</sup>.</p>
+                        </div>
+                        <div class="lang-block">
+                            <span class="lang-tag">EN</span>
+                            <p class="template-text"><strong>Figure X.</strong> Schematic representation of the
+                                cellular reaction mechanism. <strong>Note:</strong> This conceptual diagram was
+                                generated with the assistance of <span class="placeholder">[TOOL NAME, VERSION,
+                                    DEVELOPER]</span>, based on rough conceptual sketches provided by the authors. No
+                                primary research images, micrographs, or raw experimental data were modified, altered,
+                                or synthetically generated by AI technologies<sup>1</sup>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="citacoes" class="tab-panel" role="tabpanel" aria-labelledby="tab-citacoes" hidden>
+                <h2>Modelos de Citação e Referenciação Técnica em Estilos Acadêmicos</h2>
+                <p class="lede">A formalização da citação de ferramentas de IA generativa nas listas de referências e
+                    citações no texto deve obedecer aos manuais de estilo adotados pela publicação<sup>2,6</sup>. Nas
+                    listas abaixo, o rótulo em destaque indica a instrução; o trecho sombreado é o exemplo literal.</p>
+
+                <h3>Estilo APA 7ª Edição</h3>
+                <p class="lede">Na norma APA, o desenvolvedor do software figura como autor principal da
+                    entrada<sup>26</sup>.</p>
+
+                <ul>
+                    <li><strong>Estrutura na Lista de Referências:</strong> <span class="citation-example">Desenvolvedor.
+                            (Ano). <em>Título da Ferramenta</em> (Versão) [Tipo de Modelo]. URL<sup>26</sup>.</span></li>
+                    <li><strong>Exemplo de Entrada:</strong> <span class="citation-example">OpenAI. (2026). <em>ChatGPT</em>
+                            (Versão GPT-4o) [Modelo de linguagem em grande escala]. https://chatgpt.com/<sup>26</sup>.</span>
+                    </li>
+                    <li><strong>Citação Parental no Texto:</strong> <span class="citation-example">(OpenAI,
+                            2026)<sup>26</sup>.</span></li>
+                    <li><strong>Citação Narrativa no Texto:</strong> <span class="citation-example">Em resposta ao
+                            prompt sobre fatores de risco cardiovasculares, o ChatGPT indicou hipertensão, tabagismo e
+                            dislipidemia (OpenAI, 2026)<sup>26</sup>.</span></li>
+                </ul>
+
+                <h3>Estilo MLA 9ª Edição</h3>
+                <p class="lede">A norma MLA destaca o título do software e exige a inclusão do prompt de consulta e do
+                    link direto de compartilhamento da sessão, quando disponível<sup>27</sup>.</p>
+
+                <ul>
+                    <li><strong>Estrutura em Obras Citadas:</strong> <span class="citation-example">"Texto exato do
+                            prompt inserido" prompt. <em>Título da Ferramenta</em>, versão, Desenvolvedor, Data de
+                            acesso, URL<sup>29</sup>.</span></li>
+                    <li><strong>Exemplo de Entrada:</strong> <span class="citation-example">"Mapeie as principais
+                            lacunas de pesquisa sobre materiais supercondutores" prompt. <em>ChatGPT</em>, versão
+                            GPT-4o, OpenAI, 14 mar. 2026, https://chat.openai.com/share/example-link<sup>27</sup>.</span>
+                    </li>
+                    <li><strong>Citação no Texto:</strong> <span class="citation-example">Conforme sistematizado na
+                            consulta (<em>ChatGPT</em>)<sup>29</sup>.</span></li>
+                </ul>
+
+                <h3>Estilo Chicago (Notas e Bibliografia)</h3>
+                <p class="lede">No estilo Chicago, as interações com sistemas de IA são tratadas preferencialmente como
+                    comunicações pessoais e registradas em notas de rodapé<sup>29</sup>.</p>
+
+                <ul>
+                    <li><strong>Formato de Nota de Rodapé:</strong> <span class="citation-example">1. Resposta gerada
+                            pelo ChatGPT, OpenAI, 10 de fevereiro de 2026, em resposta ao prompt "Resuma a teoria do
+                            valor-trabalho em Adam Smith", https://chat.openai.com/share/example<sup>29</sup>.</span>
+                    </li>
+                </ul>
+
+                <h4>Referências citadas</h4>
+                <ol class="references">
+                    <li><a href="https://www.elsevier.com/connect/updated-generative-ai-policies-for-journals-supporting-responsible-use-while-protecting-trust"
+                            target="_blank" rel="noreferrer">Updated generative AI policies for journals: supporting
+                            responsible,</a></li>
+                    <li><a href="https://fafiltec.edu.br/midia/noticias/uso-ia-pesquisa-cientifica-ganha-regras-estritas-declaracao-obrigatoria-cnpq/"
+                            target="_blank" rel="noreferrer">Uso de Inteligência Artificial na pesquisa científica ganha
+                            regras,</a></li>
+                    <li><a href="https://site.unifesp.br/bibliotecas/acontece/noticias/cnpq-ia" target="_blank"
+                            rel="noreferrer">CNPq oficializa política de integridade para o uso de inteligência,</a>
+                    </li>
+                    <li><a href="https://dirosat.com/index.php/i/announcement/view/7" target="_blank"
+                            rel="noreferrer">Declaration Of Generative Ai In Scientific Writing | DIROSAT,</a></li>
+                    <li><a href="https://www.elsevier.com/about/policies-and-standards/publishing-ethics-books/generative-ai-policies"
+                            target="_blank" rel="noreferrer">Generative AI Policies for Books and Commissioned Content -
+                            Elsevier,</a></li>
+                    <li><a href="https://manusights.com/blog/nature-methods-ai-policy" target="_blank"
+                            rel="noreferrer">Nature Methods AI Policy: Author Rules (2026) - Manusights,</a></li>
+                    <li><a href="https://proofreaderpro.ai/blog/ai-disclosure-statement-manuscript" target="_blank"
+                            rel="noreferrer">How to Write an AI-Use Disclosure Statement for Your Manuscript,</a></li>
+                    <li><a href="https://proofreaderpro.ai/blog/ai-disclosure-statement-template-publisher"
+                            target="_blank" rel="noreferrer">AI Disclosure Statements: Per-Publisher Cheat Sheet |
+                            ProofreaderPro,</a></li>
+                    <li><a href="https://www.editage.com/blog/how-to-write-an-ai-disclosure-statement-examples-and-format-for-journal-articles-and-dissertations/"
+                            target="_blank" rel="noreferrer">How to Write an AI Disclosure Statement: Examples and
+                            Format for,</a></li>
+                    <li><a href="https://www.enago.com/responsible-ai-movement/publisher-ai-guidelines/elsevier-ai-guidelines/"
+                            target="_blank" rel="noreferrer">ELSEVIER AI Guidelines: Publisher AI Policies and Best
+                            Practices,</a></li>
+                    <li><a href="https://vascular.org/vascular-specialists/research/journals/declaration-generative-ai-scientific-writing"
+                            target="_blank" rel="noreferrer">Declaration of Generative AI in Scientific Writing,</a>
+                    </li>
+                    <li><a href="https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+                            target="_blank" rel="noreferrer">Generative AI policies for journals - Elsevier,</a></li>
+                    <li><a href="https://scipubplus.com/hub/blog/elsevier-vs-springer-nature-comparing-ai-policies-for-academic-authors/"
+                            target="_blank" rel="noreferrer">Elsevier vs. Springer Nature: Comparing AI Policies for
+                            Academic,</a></li>
+                    <li><a href="https://www.alfredscholar.com/blog/how-to-disclose-ai-use-in-research-papers/"
+                            target="_blank" rel="noreferrer">AI Disclosure Statement: Examples and Journal Rules
+                            (2026),</a></li>
+                    <li><a href="https://www.wiley.com/en-us/publishing/article/ai-guidelines" target="_blank"
+                            rel="noreferrer">Using AI tools in your research - Wiley,</a></li>
+                    <li><a href="https://casrai.org/guides/ai-disclosure-statement-examples" target="_blank"
+                            rel="noreferrer">AI Disclosure Statements: Rules &amp; Examples - CASRAI,</a></li>
+                    <li><a href="https://aiacknowledgement.org/journal/ieee/" target="_blank" rel="noreferrer">IEEE AI
+                            Disclosure Statement: Rules &amp; Example,</a></li>
+                    <li><a href="https://www.icmje.org/recommendations/browse/artificial-intelligence/" target="_blank"
+                            rel="noreferrer">V. Use of Artificial Intelligence in Publishing - ICMJE,</a></li>
+                    <li><a href="https://www.academicjobs.com/research-publication-news/icmje-authorship-and-ai-disclosure-2025-update-29056"
+                            target="_blank" rel="noreferrer">ICMJE Authorship Criteria and AI Disclosure: What Changed
+                            in 2025,</a></li>
+                    <li><a href="https://portalpadrao.ufma.br/ageufma/noticias/noticias-gerais/cnpq-institui-nova-politica-de-integridade-na-atividade-cientifica-com-diretrizes-para-uso-de-inteligencia-artificial"
+                            target="_blank" rel="noreferrer">CNPq institui nova Política de Integridade na Atividade
+                            Científica,</a></li>
+                    <li><a href="https://revistapesquisa.fapesp.br/arcabouco-consolidado/" target="_blank"
+                            rel="noreferrer">Arcabouço consolidado : Revista Pesquisa FAPESP,</a></li>
+                    <li><a href="https://ppgartes.unespar.edu.br/nova-portaria-do-cnpq-define-limites-para-o-uso-de-inteligencia-artificial-na-pesquisa-academica"
+                            target="_blank" rel="noreferrer">Nova portaria do CNPq define limites para o uso de
+                            inteligência,</a></li>
+                    <li><a href="https://files.su.ac.za/public/division-research-development/documents/2025-11/postgraduate-studentinternal-student-declaration-use-artificial-intelligence-ai-toolspdf.pdf"
+                            target="_blank" rel="noreferrer">Internal Student Declaration for the Use of Artificial
+                            Intelligence (AI,</a></li>
+                    <li><a href="https://scm.cs.tum.de/fileadmin/scm/pdf/theses/ai-guidelines-scm.pdf" target="_blank"
+                            rel="noreferrer">Guidelines for the Use of AI Tools in Reports, Seminar Papers, and,</a>
+                    </li>
+                    <li><a href="https://revistapesquisa.fapesp.br/pesquisadores-usam-inteligencia-artificial-em-tarefas-academicas/"
+                            target="_blank" rel="noreferrer">Pesquisadores usam inteligência artificial em tarefas
+                            acadêmicas,</a></li>
+                    <li><a href="https://www.grafiati.com/pt/info/apa-7/ai/" target="_blank" rel="noreferrer">Como citar
+                            a IA generativa em APA (7 a ed.)? - Grafiati,</a></li>
+                    <li><a href="https://litrevu.com/tools/ai-disclosure-statement-generator" target="_blank"
+                            rel="noreferrer">AI Disclosure Statement &amp; Declaration Generator - Litrevu,</a></li>
+                    <li><a href="https://www.ehu.eus/en/web/adimen-artifiziala/c%C3%B3mo-declarar-el-uso-de-la-ia-generativa"
+                            target="_blank" rel="noreferrer">How to declare the use of generative AI - Artificial
+                            intelligence - EHU,</a></li>
+                    <li><a href="https://gowinston.ai/pt-br/cite-chatgpt-mla-apa-formats/" target="_blank"
+                            rel="noreferrer">Você precisa citar o ChatGPT? Quando e como você deve citar,</a></li>
+                    <li><a href="https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+                            target="_blank" rel="noreferrer">AI guidance for researchers, editors, reviewers | Springer
+                            Nature,</a></li>
+                    <li><a href="https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+                            target="_blank" rel="noreferrer">AI Use in Manuscript Preparation | Policies - Springer
+                            Nature,</a></li>
+                    <li><a href="https://europeia.libanswers.com/faq/285281" target="_blank" rel="noreferrer">Como citar
+                            ferramentas de Inteligência Artificial com a Norma APA?,</a></li>
+                    <li><a href="https://undetectable.ai/blog/br/como-citar-um-site/" target="_blank"
+                            rel="noreferrer">Como citar um site na APA, MLA e Chicago - Undetectable AI,</a></li>
+                </ol>
+            </section>
+
+            <section id="gerador" class="tab-panel" role="tabpanel" aria-labelledby="tab-gerador" hidden>
+                <h2>Gerador de Declaração de Uso de IA</h2>
+                <p class="lede">Informe à esquerda as ferramentas utilizadas e as finalidades de cada uma — as mesmas
+                    categorias do Formulário de Termo de Compromisso, na aba <strong>Modelos de Declaração</strong>. O
+                    texto à direita é montado automaticamente e pode ser copiado para o seu trabalho.</p>
+
+                <div class="generator">
+                    <div class="generator__form">
+                        <div class="gen-gate">
+                            <span class="gen-gate__question">Você utilizou IA generativa neste trabalho?</span>
+                            <div class="gen-radio-group" role="radiogroup" aria-label="Uso de IA generativa">
+                                <label class="gen-radio"><input type="radio" name="gen-used-ai" value="yes"
+                                        checked /> Sim</label>
+                                <label class="gen-radio"><input type="radio" name="gen-used-ai" value="no" /> Não</label>
+                            </div>
+                        </div>
+
+                        <div id="gen-tools" class="gen-tools"></div>
+
+                        <button type="button" id="gen-add-tool" class="gen-add-btn">+ Adicionar ferramenta</button>
+                    </div>
+
+                    <div class="generator__output">
+                        <div class="card-header"><span class="card-header__icon" aria-hidden="true">&#10070;</span>
+                            Declaração gerada</div>
+                        <div class="card-body">
+                            <p class="template-title">Declaração de Uso de Inteligência Artificial</p>
+                            <p class="template-text" id="gen-output-text">Selecione ao menos uma ferramenta e uma
+                                finalidade de uso para gerar o texto da declaração.</p>
+                            <button type="button" id="gen-copy-btn" class="gen-copy-btn">Copiar declaração</button>
+                            <p class="gen-note">O texto segue o modelo institucional geral apresentado na aba
+                                <strong>Modelos de Declaração</strong>. Revise e adapte conforme as normas da sua
+                                instituição ou periódico antes de inserir no trabalho.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="generator.js"></script>
+</body>
+
+</html>
